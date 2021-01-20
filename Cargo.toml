@@ -1,0 +1,26 @@
+[package]
+name = "druid-cookbook"
+version = "0.1.0"
+authors = ["lazypassion <25536767+lazypassion@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+druid = "0.7.0"
+
+[[bin]]
+name = "lens_macro"
+path = "src/lens_macro.rs"
+
+[[bin]]
+name = "lens_updating_data"
+path = "src/lens_updating_data.rs"
+
+[[bin]]
+name = "display_numeric_data"
+path = "src/display_numeric_data.rs"
+
+[[bin]]
+name = "clicking_list_item"
+path = "src/list/clicking_list_item.rs"

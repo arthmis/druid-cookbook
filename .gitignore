@@ -1,0 +1,11 @@
+book
+
+
+# Added by cargo
+
+/target
+
+# project ignores
+
+Cargo.lock
+.vscode
